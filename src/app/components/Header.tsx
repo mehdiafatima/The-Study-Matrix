@@ -4,7 +4,7 @@ import styles from './Header.module.css';
 const Header = () => {
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>AI Study Companion</div>
+      <div className={styles.logo}>The Study Matrix!</div>
       <nav className={styles.nav}>
         <Link href="/">Home</Link>
         <Link href="/ImportanceOfTimetable" target="_parent" rel="noopener noreferrer" className="hover:underline">Importance of Timetables</Link>

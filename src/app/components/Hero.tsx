@@ -6,13 +6,13 @@ const Hero = () => {
     <section className={styles.hero}>
       <div className={styles.container}> 
         <div className={styles.textContainer}>
-          <h1 className={styles.title}><span>Elevate Your Study </span><br></br><span>Game with AI!</span></h1>
+          <h1 className={styles.title}><span>Unlock Your Learning Potential  </span><br></br><span>with The Study Matrix!</span></h1>
           <p className={styles.description}>
-           <span>Discover personalized study plans, </span><br /><span> enhance your learning experience, </span> <br /><span>and unleash your potential with our AI-driven tools.</span>
+           <span> Dive into a world of organized study techniques,</span><br /><span>  effective timetables, and the importance of education. </span> <br /><span>Empower yourself with tools that enhance your </span><br></br><span>learning journey and help you achieve academic success.</span>
           </p>
           <blockquote className={styles.quote}>
-            <span>Success is not the key to happiness.</span><br /><span> Happiness is the key to success. </span><br /><span>If you love what you are doing, you will be successful.</span>
-            <span className={styles.author}> - Albert Schweitzer</span>
+            <span>Education is the most </span><br /><span> powerful weapon which you  </span><br /><span> can use to change the world.</span>
+            <span className={styles.author}>  - Nelson Mandela</span>
           </blockquote>
           
         </div>

@@ -7,7 +7,9 @@ const AboutPage = () => {
         <h1 className={styles.title}>About Us</h1>
         <div className={styles.aboutContainer}>
           <p className={styles.introText}>
-            Welcome to our AI Study Companion platform! Our mission is to revolutionize education by integrating artificial intelligence into everyday learning experiences. In todays fast-paced world, students face challenges like never before – managing time, keeping up with complex subjects, and finding effective study methods. We believe that AI can be the key to simplifying education, making it more personalized, and ultimately helping students succeed.
+          Welcome to The Study Matrix!  Our mission is to revolutionize education by providing a structured framework that integrates essential study techniques and time management strategies into everyday learning experiences. 
+            In todays fast-paced world, students face unprecedented challenges: managing their time effectively, mastering complex subjects, and discovering the best study methods to enhance their performance. 
+            We believe that with the right tools and resources, every student can unlock their potential. The Study Matrix aims to simplify education, making it more personalized and accessible, ultimately guiding students toward success in their academic journeys.
           </p>
         </div>
 
@@ -15,19 +17,22 @@ const AboutPage = () => {
           <div className={styles.sectionCard}>
             <h2 className={styles.subtitle}>Why We Built This Website</h2>
             <p className={styles.paragraph}>
-              As the demands of modern education evolve, students need smarter tools to keep up. This platform was created to provide personalized assistance, study techniques, and learning tools powered by AI, designed to make learning more efficient and enjoyable.
+            The Study Matrix was created to address the growing need for effective study techniques and time management among students. 
+            In a world filled with distractions, we aim to provide a structured approach to learning that empowers students to succeed academically and beyond.
             </p>
           </div>
           <div className={styles.sectionCard}>
             <h2 className={styles.subtitle}>Our Mission</h2>
             <p className={styles.paragraph}>
-              Our mission is simple: to make education accessible and easy for everyone through the use of cutting-edge AI technology. By offering AI-driven tools and study tips, we aim to reduce the stress associated with learning and boost productivity.
+            Our mission is to equip students with the tools they need to excel in their studies. 
+            We believe that education is the foundation for a successful future, and we are dedicated to making learning accessible, enjoyable, and effective for everyone.
             </p>
           </div>
           <div className={styles.sectionCard}>
             <h2 className={styles.subtitle}>Looking to the Future</h2>
             <p className={styles.paragraph}>
-              We believe that the future of education lies in the seamless integration of technology and learning. Our platform is continuously evolving to offer new features and tools that cater to the diverse needs of students.
+            As we look to the future, we plan to expand our offerings by incorporating advanced AI-driven study tools and resources tailored to individual learning styles. 
+            We envision a community where students can collaborate, share tips, and inspire each other to reach their full potential.
             </p>
           </div>
         </div>
