@@ -1,0 +1,164 @@
+.hero {
+  background-color: #ffffff;
+  padding: 0 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.heroContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 40px;
+  border-radius: 40px;
+  background-color: #f5f5f5;
+  margin-top: 30px;
+}
+
+
+.textContainer {
+  flex: 1;
+  margin-right: 20px;
+  text-align: left;
+  margin-left: 40px;
+}
+
+.textContainer h1 span {
+  background-color: #003366;
+  margin-top: 100vh;
+}
+
+.textContainer p span {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.textContainer p {
+  color: rgb(163, 165, 255);
+}
+
+
+.imageContainer {
+  flex: 1 0 10%;
+  max-width: 30%;
+  text-align: right;
+  margin-right: 50px;
+  margin-top: 25px;
+}
+
+.heroImage {
+  border-radius: 20px;
+  width: 50%;
+  height: auto;
+}
+
+
+.title {
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #555;
+  margin: 15px 0;
+}
+
+
+.quote {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #333;
+  margin: 10px 0;
+  position: relative;
+  padding: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  border-radius: 9px;
+  width: 500px;
+}
+
+.quote:hover {
+  background-color: #ffffff;
+  color: #003366;
+  transform: scale(1.06);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.author {
+  display: block;
+  margin-top: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* RESPONSIVE STYLES */
+
+@media only screen and (max-width: 768px) {
+  .heroContent {
+    flex-direction: column; 
+    margin-left: 0;
+  }
+
+  .container {
+    padding: 60px 30px; 
+  }
+
+  .textContainer {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center; 
+  }
+
+  .imageContainer {
+    max-width: 50%; 
+    margin-right: 0;
+    text-align: center; 
+    margin-top: 20px;
+  }
+
+  .heroImage {
+    width: 70%; 
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  .container {
+    flex-direction: column; 
+    padding: 40px 20px; 
+  }
+
+  .textContainer {
+    margin: 0 auto; 
+  }
+
+  .title {
+    font-size: 1.8rem; 
+  }
+
+  .description {
+    font-size: 1rem; 
+  }
+
+  .imageContainer {
+    max-width: 100%; 
+    margin-top: 15px;
+  }
+
+  .heroImage {
+    width: 90%; 
+  }
+
+  .quote {
+    width: 100%; 
+  }
+}
+

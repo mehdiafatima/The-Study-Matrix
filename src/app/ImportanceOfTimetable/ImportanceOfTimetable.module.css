@@ -1,0 +1,137 @@
+
+.timetableSection {
+  padding: 40px;
+  background-color: #f7f9fc;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+  background-color: #003366;
+}
+
+.intro {
+  font-size: 1.3rem;
+  max-width: 800px;
+  margin: 0 auto 40px;
+  color: #333;
+}
+
+
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: #e3f2fd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  transition: transform 0.3s, background-color 0.3s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.card:hover {
+  transform: translateY(-10px); 
+  background-color: #ffffff;
+}
+
+.cardTitle {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  color: #174362;
+}
+
+.cardText {
+  font-size: 1rem;
+  color: #555;
+}
+
+
+.tipsSection {
+  margin-top: 40px;
+}
+
+.tipsTitle {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+  background-color: #003366;
+}
+
+.tipsList {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.tipItem {
+  background-color: #e8f5e9;
+  border-radius: 10px;
+  padding: 15px;
+  width: 250px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+
+.tipItem:hover {
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  color: #174362;
+}
+
+
+
+/* Medium screens (tablets) */
+@media (max-width: 768px) {
+  .cardsContainer, .tipsList {
+      flex-direction: column; 
+      align-items: center; 
+  }
+
+  .card, .tipItem {
+      width: 90%; 
+      margin-bottom: 20px; 
+  }
+
+  .title, .tipsTitle {
+      font-size: 2rem; 
+  }
+
+  .intro {
+      font-size: 1.2rem; 
+  }
+}
+
+/* Small screens (mobiles) */
+@media (max-width: 480px) {
+  .timetableSection, .tipsSection {
+      padding: 20px;
+  }
+
+  .title, .tipsTitle {
+      font-size: 1.8rem; 
+      padding: 10px;
+  }
+
+  .intro {
+      font-size: 1rem; 
+      padding: 0 10px; 
+  }
+
+  .card, .tipItem {
+      width: 100%; 
+      padding: 15px; 
+  }
+}

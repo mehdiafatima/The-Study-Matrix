@@ -1,0 +1,86 @@
+
+
+.educationSection {
+    padding: 60px 20px;
+    background-color: #f7f9fc;
+    text-align: center;
+  }
+  
+  .educationTitle {
+    font-size: 2.8rem;
+    color: #174362;
+    margin-bottom: 50px;
+    font-weight: bold;
+    animation: fadeIn 1.2s ease-in-out;
+  }
+  
+  .educationContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .educationCard {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .educationCard:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  .cardContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .cardIcon {
+    font-size: 2.5rem;
+    color: #27ae60; 
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .cardTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .cardText {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.7;
+  }
+  
+  .educationCard:hover .cardIcon {
+    color: #174362; 
+  }
+  
+  @media (max-width: 768px) {
+    .educationContainer {
+      grid-template-columns: 1fr; 
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

@@ -1,0 +1,75 @@
+.header {
+  background-color: #003366;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: #ffcc00;
+}
+
+
+
+/* For medium screens (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+  .header {
+    padding: 10px 15px; 
+  }
+
+  .logo {
+    font-size: 1.3rem; 
+  }
+
+  .nav {
+    gap: 15px; 
+  }
+
+  .nav a {
+    font-size: 0.9rem; 
+  }
+}
+
+/* For small screens (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+  .header {
+    flex-direction: column; 
+    align-items: flex-start; 
+  }
+
+  .logo {
+    font-size: 1.2rem; 
+    margin-bottom: 10px; 
+  }
+
+  .nav {
+    flex-direction: column; 
+    gap: 10px;
+  }
+
+  .nav a {
+    font-size: 1rem; 
+  }
+}
+
