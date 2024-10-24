@@ -3,7 +3,7 @@ import styles from './Footer.module.css';
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <p>&copy; 2025 AI Study Companion. All rights reserved.</p>
+      <p>&copy; 2025 The Study Matrix!. All rights reserved.</p>
       <div className="parastyle">
       <p>Website created by Mehdia Fatima Faizi</p></div><br></br> 
       
